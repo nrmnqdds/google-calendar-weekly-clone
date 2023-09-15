@@ -29,7 +29,9 @@ export default function Header({
         </div>
         <div className="flex items-center ml-3">
           <Image src="/calendar.svg" alt="logo" width={30} height={30} />
-          <h1 className="ml-2 text-lg text-gray-500 hidden md:block">캘린더</h1>
+          <h1 className="ml-2 text-lg text-gray-500 hidden md:block">
+            Calendar
+          </h1>
         </div>
       </div>
       <div className="flex items-center">
@@ -37,7 +39,7 @@ export default function Header({
           className="px-3 py-1 mx-3 border border-gray-200 rounded text-sm"
           onClick={() => dispatch(selectDay(new Date().toString()))}
         >
-          오늘
+          Today
         </button>
         {/* <img
           src="/left.svg"
@@ -63,7 +65,7 @@ export default function Header({
         </div>
 
         <span className="text-sm md:text-lg ml-3">
-          {year}년 {month}월
+          {year}Year {month}Month
         </span>
       </div>
       <span className="px-3 py-1 mx-3 border border-gray-200 rounded text-sm">

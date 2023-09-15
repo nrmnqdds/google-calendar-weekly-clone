@@ -3,10 +3,10 @@ import { tSchedule, tScheduleDetail } from "../../index";
 import { RootState } from "../index";
 
 const initialState: tSchedule = {
-  "2022-01-01": [
+  "2023-09-14": [
     {
       start: { hour: 1, minute: 20 },
-      end: { hour: 1, minute: 40 },
+      end: { hour: 3, minute: 40 },
       color: "pink",
       title: "coding",
     },
